@@ -1,0 +1,167 @@
+:root {
+    --blue: #134F7B
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#start-section,
+#projects-section {
+    background: url(background.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: #FFC700 5px solid;
+}
+
+#nav-bar {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+}
+
+#profile-picture {
+    margin: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+
+p,
+a,
+h1 {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    height: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+#projects-link {
+    margin: 0 0 0 auto;
+}
+
+#contact-link {
+    margin: 0 30px;
+}
+
+#headline-container {
+    width: 35vw;
+    height: 25vh;
+    background-color: var(--blue);
+    margin: 33vh auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#headline {
+    font-size: 4rem;
+}
+
+#webbdev-paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFC700;
+}
+
+#contact-container {
+    background: rgba(163, 163, 163, 0.47);
+    box-shadow: 20px 20px 100px 100px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+    margin: 24vh 0 0;
+    height: 10vh;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+}
+
+#discord,
+#pinterest {
+    width: 33%;
+    margin: 0;
+}
+
+
+#github {
+    width: 100%;
+}
+
+#pinterest {
+    width: 30%;
+}
+
+#projects-headline-container {
+    background-color: var(--blue);
+    border-radius: 10px;
+    padding: 10px 100px;
+    margin: 50px;
+}
+
+#projects-headline {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+#projects-container {
+    display: flex;
+    width: 80vw;
+    height: 60vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.project:hover {
+    cursor: pointer;
+}
+
+.project:active {
+    transform: scale(0.95);
+}
+
+.project {
+    width: 25vw;
+    height: 25vh;
+    background-color: #515151;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+}
