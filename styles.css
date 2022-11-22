@@ -88,6 +88,7 @@ img:hover {
 
 #headline {
     font-size: 4rem;
+    width: 100%;
 }
 
 #webbdev-paragraph {
@@ -169,4 +170,22 @@ img:hover {
     box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 10px 10px 30px 3px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 1200px) {
+
+    p,
+    a,
+    h1 {
+        transform: scale(0.7);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    p,
+    a,
+    h1 {
+        transform: scale(0.5);
+    }
 }
