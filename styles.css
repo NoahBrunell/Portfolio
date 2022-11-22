@@ -176,6 +176,7 @@ img:hover {
 
     p,
     a,
+    h2,
     h1 {
         transform: scale(0.7);
     }
