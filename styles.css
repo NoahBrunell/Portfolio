@@ -33,6 +33,7 @@ html {
     background-color: var(--blue);
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 #profile-picture {
@@ -60,12 +61,16 @@ img:hover {
     cursor: pointer;
 }
 
-#projects-link {
+#start-link {
     margin: 0 0 0 auto;
 }
 
-#contact-link {
+#projects-link {
     margin: 0 30px;
+}
+
+#contact-link {
+    margin: 0 0 0 30px;
 }
 
 #headline-container {
